@@ -2,6 +2,8 @@
 var myApp = new Framework7({
 
         material: true,
+        
+        pushState: true,
 
         onAjaxStart: function (xhr) {
             myApp.showIndicator();
